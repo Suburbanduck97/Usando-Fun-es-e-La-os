@@ -6,13 +6,13 @@ int main(){
 	
 	setlocale(LC_ALL, "portuguese");
 	
-	printf("ESCOLHA A OPÇÃO: \n(1)SOMA \n(2)SUBTRAÇÃO \n(3)MULTIPLICAÇÃO \n(4)DIVISÃO \n\nINSIRA A OPÇÃO: ");
+	printf("ESCOLHA A OPÃ‡ÃƒO: \n(1)SOMA \n(2)SUBTRAÃ‡ÃƒO \n(3)MULTIPLICAÃ‡ÃƒO \n(4)DIVISÃƒO \n\nINSIRA A OPÃ‡ÃƒO: ");
 	scanf("%d",&opcao);
 	system("cls || clear");
 	
 	
 	switch(opcao){
-		case 1: puts("OPÇÃO SELECIONADA: ADIÇÃO \n"); 
+		case 1: puts("OPÃ‡ÃƒO SELECIONADA: ADIÃ‡ÃƒO \n"); 
 		
 		printf("INSIRA UM NUMERO: ");
 		scanf("%d",&numero);
@@ -24,7 +24,7 @@ int main(){
 		
 		break;
 		
-		case 2:  puts("OPÇÃO SELECIONADA: SUBTRAÇÃO \n");
+		case 2:  puts("OPÃ‡ÃƒO SELECIONADA: SUBTRAÃ‡ÃƒO \n");
 		printf("INSIRA UM NUMERO: ");
 		scanf("%d",&numero);
 		
@@ -34,7 +34,7 @@ int main(){
 		
 		break;
 		
-		case 3: puts("OPÇÃO SELECIONADA: MULTIPLICAÇÃO \n"); 
+		case 3: puts("OPÃ‡ÃƒO SELECIONADA: MULTIPLICAÃ‡ÃƒO \n"); 
 		printf("INSIRA UM NUMERO: ");
 		scanf("%d",&numero);
 		
@@ -44,7 +44,7 @@ int main(){
 	    
 		break;
 	
-	    case 4: puts("OPÇÃO SELECIONADA: DIVISÃO \n"); 
+	    case 4: puts("OPÃ‡ÃƒO SELECIONADA: DIVISÃƒO \n"); 
 		printf("INSIRA UM NUMERO: ");
 		scanf("%d",&numero);
 		
@@ -52,8 +52,9 @@ int main(){
 		printf("%d / %d = %d \n",numero, i, numero / i);
         }
         break;
-        default: printf("\nINSIRA UMA OPÇÃO VÁLIDA!");
+        default: printf("\nINSIRA UMA OPÃ‡ÃƒO VÃLIDA!");
         break;
         
     }
+	return 0;
 }
