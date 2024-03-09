@@ -21,7 +21,7 @@ int main(){
 	for(i=1; i<=2; i++){
 		do{
 		
-			printf("INSIRA A NOTA DA %d™ AVALIA«√O : ", i);
+			printf("INSIRA A NOTA DA %d¬™ AVALIA√á√ÉO : ", i);
 			scanf("%f",&nota);
 			fflush(stdin);
 			
@@ -35,14 +35,14 @@ int main(){
 	
 	cabecalho();
 	exibindo();	
-	printf("SUA PRIMEIRA NOTA … : %.1f", nota);
-	printf("\nSUA SEGUNDA NOTA … : %.1f", nota);
-	printf("\n\nM…DIA DAS NOTAS …: %.1f", media);
+	printf("SUA PRIMEIRA NOTA √â : %.1f", nota);
+	printf("\nSUA SEGUNDA NOTA √â : %.1f", nota);
+	printf("\n\nM√âDIA DAS NOTAS √â: %.1f", media);
 	
 	if(media >= 7){
-		puts("\n\nVOC  ESTA APROVADO!");
-	}else{ puts("\n\nVOC  EST¡ REPROVADO!");
+		puts("\n\nVOC√ä ESTA APROVADO!");
+	}else{ puts("\n\nVOC√ä EST√Å REPROVADO!");
 	}
 	
-	
+	return 0;
 }
